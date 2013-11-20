@@ -1,0 +1,43 @@
+	#form1 fieldset{display:block; width:310px;}
+#form1 {width:310px; padding-top:5px;}
+#form1 label {display:block; min-height:42px; position:relative;}
+#form1 label.message {
+    height: 205px;
+}
+#form1 input {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #F3F3F3;
+    border-color: #D8D8D8 #F3F3F3 #F3F3F3 #D8D8D8;
+    border-right: 1px solid #F3F3F3;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    color: #787878;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    height: 18px;
+    line-height: 18px;
+    margin: 0;
+    outline: medium none;
+    padding: 6px 8px;
+    resize: none;
+    width: 292px;
+}#form1 textarea {height:160px;line-height:18px; overflow:auto; width:288px; font-size:13px; color:#787878; padding:5px 10px; margin:0; border:1px solid #f3f3f3; border-top:1px solid #d8d8d8; border-left:1px solid #d8d8d8; background:#f3f3f3; outline:none; resize:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+#form1 .empty, #form1 .error {
+    color: #FF0000;
+    display: none;
+    font-size: 11px;
+    line-height: 2em;
+	overflow:hidden;
+    position: relative;
+    left: 0;
+    top: 1px;
+	padding:3px 0;
+}
+#form1 label.message .empty, #form1 label.message .error {left: 1px;
+    top: -3px;}
+#form1 .success {display:none; color:#000; font-size:18px; line-height:1.2em; text-align:center; padding:10px; margin-bottom:20px; border:1px solid #000; background:#ebebeb;}

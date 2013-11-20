@@ -1,0 +1,41 @@
+.jcarousel-skin-tango {width:950px; height:225px; position:relative;}
+
+.jcarousel-skin-tango .jcarousel-clip {width:970px; height:225px; overflow:hidden;}
+
+.jcarousel-skin-tango li {float:left; margin:0 21px 0 0px; width:173px; height:225px;}
+
+.jcarousel-skin-tango li img {margin-bottom:20px;}
+
+/*  Buttons  */
+.next1 {
+    position: absolute;
+    top:-75px;
+    right: 0px;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+	background:url(../images/next.gif) no-repeat 0 0;
+}
+
+.next1:hover,
+.prev1:hover {background-position:0 -48px;}
+
+.prev1 {
+    position: absolute;
+    top: -75px;
+    right: 25px;
+    width: 19px;
+	height:19px;
+    cursor: pointer;
+    background:url(../images/prev.gif) no-repeat 0 0;
+	
+}
+
+.car-wrapper {
+	position:relative;
+}
+
+.carousel {
+	overflow:hidden;
+	height:225px;
+}

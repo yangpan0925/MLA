@@ -1,0 +1,96 @@
+* {
+	padding:0;
+	margin:0;
+}
+.slider {
+	width:950px; height:430px;
+	margin:0 auto;
+	position:absolute;
+	top:133px; 
+	left:5px;
+	z-index:1;
+}
+.items {
+	display:none;
+}
+.pagination {
+	position:absolute;
+	bottom:0px;
+	right:2px;
+	z-index:999;
+}
+.pagination li {
+	float:left;
+	margin:0 0px 0 2px;
+	padding:0px;
+	display:block;
+	background:url(../images/pagination.gif) right top no-repeat;
+}
+.pagination li.current, .pagination li:hover {
+	background:url(../images/pagination.gif) 0 0 no-repeat;
+}
+.pagination li a {
+	color:#fff;
+	width:12px;
+	text-indent:-1000px;
+	height:12px;
+	display:block;
+}
+.play.paused {
+	color:#f00;
+}
+.banner {
+	width:auto;
+	position:absolute; letter-spacing:-2px;
+	padding:0px 0;
+	left:50%;
+	top:318px;
+	font-size:40px; line-height:1.2em;
+	color:#fff;
+	font:30px Arial, Helvetica, sans-serif;
+	font-weight:normal; font-family:'Oswald', sans-serif;
+}
+
+.banner span {display:block; font-size:40px; line-height:1.2em; padding:0 42px;}
+.banner strong {display:block; font-size:52px; line-height:1.2em; text-transform:uppercase; font-weight:normal; margin-top:-10px;}
+
+input {
+	width:40px;
+}
+form {
+	width:710px;
+	margin:0 auto;
+}
+label {
+	display:block;
+	height:40px;
+}
+.presets {
+	position:absolute;
+	right:40px;
+	top:0;
+	margin-top:30px;
+}
+.presets li:hover {
+	text-decoration:underline;
+	cursor:pointer;
+}
+.presets li.curr {
+	color:#f00;
+}
+.progbar {
+	background:#ff0;
+	width:100%;
+	height:10px;
+	position:absolute;
+	bottom:20px;
+	z-index:999;
+}
+.numStatus {
+	position:absolute;
+	left:0;
+	bottom:0;
+	background:#000;
+	color:#fff;
+	z-index:999;
+}
